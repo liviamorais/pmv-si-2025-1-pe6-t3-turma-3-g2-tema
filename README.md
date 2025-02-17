@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Habitare - Gestão de Condomínio
 
 `CURSO: Sistemas de Informação`
 
@@ -6,20 +6,22 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Habitare é um sistema distribuído desenvolvido para otimizar a gestão de condomínios residenciais. A plataforma oferece funcionalidades como reservas de áreas comuns, registro e acompanhamento de ocorrências, controle de visitantes e um canal de comunicação eficiente entre moradores e administradores.
+
+Projetado com uma arquitetura escalável baseada em microserviços, o Habitare garante segurança, disponibilidade e desempenho, proporcionando uma administração mais eficiente e organizada para condomínios de diferentes portes.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Gabriel Alves Aredes Moraes
+* Gabriel Alves Rodrigues
+* Guilherme Martins Fialho
+* Jean Gabriel da Silva Lima
+* Lívia Santos Morais
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Kleber Jacques Ferreira de Souza
 
 # Planejamento
 
