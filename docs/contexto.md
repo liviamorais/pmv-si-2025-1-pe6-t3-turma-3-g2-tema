@@ -1,13 +1,22 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O **Habitare - Gestão de Condomínios** é um sistema distribuído desenvolvido para otimizar a administração condominial, oferecendo funcionalidades como:
+- Reservas de áreas comuns
+- Registro e acompanhamento de ocorrências
+- Controle de visitantes
+- Canal de comunicação eficiente entre moradores e administradores
+
+Com a crescente demanda por organização e segurança nos condomínios, a gestão manual ou descentralizada desses processos se torna um desafio, levando a problemas de desorganização, falhas na comunicação e dificuldades na administração eficiente. O **Habitare** surge como uma solução para modernizar e integrar esses processos, proporcionando mais transparência e praticidade no gerenciamento condominial.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+A administração de condomínios frequentemente enfrenta desafios como:
+- Falta de um sistema unificado para reservas de espaços, registros de ocorrências e controle de visitantes.
+- Uso de ferramentas desconectadas (planilhas, grupos de mensagens), resultando em perda de informação e falhas na gestão.
+- Dificuldades na comunicação entre moradores e administradores.
+- Impacto direto na segurança e satisfação dos moradores.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O **Habitare** resolve esses problemas ao centralizar e automatizar esses processos, melhorando a transparência e eficiência da administração.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -16,34 +25,86 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo Geral
+Desenvolver um **software distribuído** para aprimorar a gestão condominial, unificando e automatizando processos essenciais.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+### Objetivos Específicos
+1. Criar um sistema intuitivo para administração eficiente de reservas de áreas comuns.
+2. Implementar um módulo para registro e acompanhamento de ocorrências.
+3. Desenvolver um sistema de controle de visitantes para melhorar a segurança.
+4. Integrar uma ferramenta de comunicação para facilitar a interação entre moradores e administração.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A gestão ineficiente de condomínios pode gerar:
+- Conflitos na utilização de espaços comuns.
+- Falhas na segurança e controle de acesso.
+- Dificuldades na comunicação entre moradores e administração.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O **Habitare** visa solucionar esses problemas com uma plataforma moderna e integrada, garantindo maior **transparência, eficiência e segurança** na gestão condominial.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
-## Público-Alvo
+## Público-Alvo  
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O **Habitare - Gestão de Condomínios** será utilizado por diversos perfis dentro da administração condominial. A seguir, detalhamos os principais usuários, seus conhecimentos prévios e relação com a tecnologia:  
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+### **1. Administradores de Condomínios**  
+- **Perfil:** Profissionais responsáveis pela gestão administrativa do condomínio, incluindo organização financeira, reservas de áreas comuns e comunicação com moradores.  
+- **Conhecimentos prévios:** Experiência em administração e gestão de condomínios, familiaridade com planilhas, sistemas de gestão financeira e comunicação digital.  
+- **Relação com a tecnologia:** Usuários intermediários, acostumados a utilizar plataformas digitais para controle financeiro e operacional.  
+
+### **2. Síndicos e Conselheiros**  
+- **Perfil:** Representantes eleitos pelos moradores, responsáveis pela tomada de decisões estratégicas do condomínio.  
+- **Conhecimentos prévios:** Geralmente possuem experiência em administração e gestão condominial, mas nem sempre possuem conhecimento técnico avançado em tecnologia.  
+- **Relação com a tecnologia:** Usuários variáveis, podendo ter desde pouca até alta familiaridade com sistemas de gestão.  
+
+### **3. Moradores**  
+- **Perfil:** Pessoas que residem ou possuem unidades no condomínio e precisam interagir com a administração.  
+- **Conhecimentos prévios:** Diversos níveis de familiaridade com tecnologia, desde usuários básicos até avançados.  
+- **Relação com a tecnologia:** A maioria utiliza smartphones e redes sociais para comunicação, mas podem ter dificuldades com sistemas mais complexos.  
+
+### **4. Porteiros e Seguranças**  
+- **Perfil:** Profissionais responsáveis pelo controle de acesso e segurança do condomínio.  
+- **Conhecimentos prévios:** Experiência com rotinas de segurança, controle de entrada e saída de visitantes.  
+- **Relação com a tecnologia:** Usuários básicos, necessitando de um sistema simples e intuitivo para registros e monitoramento.  
+
+---
+
+### **Mapa de Stakeholders**  
+Abaixo estão os principais grupos envolvidos no uso do **Habitare**:  
+
+📌 **Usuários Primários**: Administradores de condomínios, síndicos, moradores, porteiros e seguranças.  
+📌 **Usuários Secundários**: Empresas terceirizadas de manutenção, visitantes e prestadores de serviço.  
+📌 **Influenciadores**: Conselhos condominiais, empresas de administração predial e associações de moradores.  
+
+---
+
+### **Personas (Exemplo)**  
+Para melhor entendimento do público-alvo, abaixo estão dois exemplos de **personas** representando os principais usuários do sistema:  
+
+#### **🧑‍💼 João Silva - Administrador de Condomínios**  
+- **Idade:** 42 anos  
+- **Experiência:** 10 anos na gestão condominial  
+- **Dores:** Perde muito tempo conciliando informações espalhadas em planilhas e e-mails.  
+- **Objetivo:** Ter um sistema unificado que facilite o gerenciamento do condomínio.  
+
+#### **👩 Maria Souza - Moradora**  
+- **Idade:** 35 anos  
+- **Ocupação:** Analista de RH  
+- **Dores:** Dificuldade em saber se a área de lazer está disponível e problemas na comunicação com a administração.  
+- **Objetivo:** Reservar áreas comuns facilmente pelo celular e receber notificações rápidas sobre o condomínio.  
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
 > - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
 
 # Especificações do Projeto
 
